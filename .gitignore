@@ -1,4 +1,6 @@
 .env
-/data/*
-!/data/
-!/data/.gitkeep
+
+# Keep the data folder but do not track any files.
+section-12-pandas-scikit/data/*
+!section-12-pandas-scikit/data/
+!section-12-pandas-scikit/data/.gitkeep
